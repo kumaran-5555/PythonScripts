@@ -11,3 +11,6 @@ if ipojpoj
     soefjsojfs
     soefjsofj
     seofjsofj
+    fojsefojsef
+    oskefjosef
+    soefksef
