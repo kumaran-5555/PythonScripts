@@ -52,7 +52,7 @@ class QuickSort():
                 self.listToSort[i]=tmp
                 i=i+1
                 j=j-1
-        if(i<right):
+        if(i<right):`
             self.testQuickSort(left,i)
         if(j>left):
             self.testQuickSort(j,right)
