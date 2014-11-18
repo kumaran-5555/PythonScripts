@@ -44,15 +44,15 @@ class QuickSort():
         while(i<=j):
             while(self.listToSort[i]<pivot):
                 i=i+1
-            while(self.listToSort[i]>pivot):
+            while(self.listToSort[j]>pivot):
                 j=j-1
             if(i<=j):
-                tmp=self.listToSort[i]
+                tmp=self.listToSort[j]
                 self.listToSort[j]=self.listToSort[i]
                 self.listToSort[i]=tmp
                 i=i+1
                 j=j-1
-        if(i<right):`
+        if(i<right):
             self.testQuickSort(left,i)
         if(j>left):
             self.testQuickSort(j,right)
@@ -66,5 +66,5 @@ class QuickSort():
 
 q = QuickSort(l)
 q.testQuickSort(0,len(l)-1)
-
+print(q.listToSort)
 print(QuickSort.quickSort.__doc__)
