@@ -5,7 +5,7 @@ str1 = "AGGTAB"
 str2 = "GXTXAYB"
 
 
-def LCS(str1, str2):
+def LongestCommonSubstring(str1, str2):
     n = len(str1)
     m = len(str2)
     dpTable = []
@@ -36,7 +36,7 @@ def LCS(str1, str2):
         print(dpTable[i])
 
 
-LCS(str1, str2)
+LongestCommonSubstring(str1, str2)
 
 
 
