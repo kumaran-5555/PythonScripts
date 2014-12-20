@@ -21,7 +21,7 @@ for i in range(1, sumT + 1):
 def getSum2(d, s):
 
     for i in range(2, d+1):
-        # possibles sums that can be achieved with including i dice rolls
+        # possibles sums that can be achieved with i dices
         for j in range(i, min((s-(d-i)+1), i*faces+1)):
             #print(i,j,  min((s-(d-i)+1), i*faces+1))
             dpTable[i][j] = 0
