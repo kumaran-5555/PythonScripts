@@ -27,6 +27,7 @@ count = [0] * maxBits
 '''
 
 
+
 def _getNumberOf1S():
     # base case
     count[0] = 1
